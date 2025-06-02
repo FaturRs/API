@@ -15,9 +15,9 @@ input_details = interpreter.get_input_details()
 output_details = interpreter.get_output_details()
 
 class_names = [
-    'Motif Ramok', 'Motif Perreng', 'Motif Bhang Kopi', 'Motif Kuaci',
-    'Motif Koceng Arenduh', 'Motif Mata Ikan', 'Motif Malate Rok-Rok',
-    'Motif Ompay', 'Motif Sek Mlayah', 'Motif Bhajit'
+    'Motif Bhajit', 'Motif Bhang Kopi', 'Motif Koceng Arenduh', 
+    'Motif Kuaci', 'Motif Malate Rok-Rok', 'Motif Mata Ikan', 
+    'Motif Ompay', 'Motif Perreng', 'Motif Ramok', 'Motif Sek Mlayah'
 ]
 
 def predict_image(img):
